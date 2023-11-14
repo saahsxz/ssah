@@ -120,7 +120,17 @@ body {
 /* Estilos para elementos com a classe .apresentacao-conteudo-paragrafo */
 .apresentacao-conteudo-paragrafo {
     /* Define o tamanho da fonte como 24px */
-    font-size: 24px;
+    font-size: 20px;
+
+    /* Define a família de fontes como 'Montserrat' com fallback para sans-serif */
+    font-family: 'Montserrat', sans-serif;
+
+    /* Alinha o texto justificado */
+    text-align: justify;
+}
+
+.apresentacao-conteudo-texto {
+    font-size: 20px;
 
     /* Define a família de fontes como 'Montserrat' com fallback para sans-serif */
     font-family: 'Montserrat', sans-serif;
@@ -151,7 +161,7 @@ body {
 .apresentacao-links-conteudo{
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
 
 }
 
